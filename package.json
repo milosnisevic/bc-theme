@@ -1,0 +1,24 @@
+{
+  "name": "bc-academy-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnisevic/bc-wp-academy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnisevic/bc-wp-academy/issues"
+  },
+  "homepage": "https://github.com/mnisevic/bc-wp-academy#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

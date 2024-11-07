@@ -1,0 +1,286 @@
+body {
+  background-color: #f9f9f9;
+  font-family: "Open Sans", sans-serif; }
+  body .upper-header {
+    font-size: 12px;
+    background-color: #f3f3f4; }
+  body h2 {
+    font-weight: 700; }
+  body a {
+    text-decoration: none; }
+
+.custom-logo-link img,
+.wp-block-image img {
+  height: 32px;
+  width: unset; }
+
+.nav-link {
+  color: #161616; }
+
+.dropdown-menu[data-bs-popper] {
+  top: unset;
+  left: unset; }
+
+.custom-dropdown-toggle::after {
+  content: "";
+  width: 11px;
+  height: 11px;
+  background-image: url(../../images/chevron-down.svg);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 0.255em;
+  transition: 0.2s all; }
+
+.compliance {
+  font-size: 12px;
+  background-color: #fff; }
+
+footer p {
+  color: #5b5b5b; }
+
+footer h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #5b5b5b; }
+
+footer a {
+  text-decoration: none;
+  color: #5b5b5b; }
+
+footer h4 a {
+  color: #161616; }
+
+.hero-section {
+  background-color: #ff6900; }
+
+.four-columns {
+  font-size: 12px;
+  font-weight: 700; }
+
+@media only screen and (max-width: 500px) {
+  .column {
+    border-style: none !important; }
+  .cta-btn {
+    width: 100%; }
+  .bookmakers-content {
+    align-items: start !important; }
+  .best-banner {
+    width: 75% !important; }
+  .registration-box {
+    width: 100% !important; }
+  .cta-btn-sidebar {
+    width: auto; } }
+
+@media (min-width: 992px) {
+  .menu-item-has-children:hover .custom-dropdown-toggle::after {
+    transform: rotate(180deg); }
+  .menu-item-has-children:hover .dropdown-menu {
+    display: block; } }
+
+.welcome-bonus-text {
+  font-size: 9.6px;
+  color: #5b5b5b; }
+
+.cta-btn {
+  height: fit-content;
+  background-color: #ff5b23; }
+
+.best-bookmakers {
+  background-color: #f3f3f4; }
+  .best-bookmakers .best-banner {
+    display: none; }
+
+.best-bookmakers:first-child {
+  background-color: #f3f3f4;
+  border: 2px solid #ff5e23; }
+  .best-bookmakers:first-child .best-banner {
+    display: block; }
+
+.bonus-icons {
+  color: #ff5b23; }
+
+.bonus-features {
+  font-size: 12px; }
+
+.best-banner {
+  background-color: #ff5e23;
+  top: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 5px; }
+
+.recensions {
+  color: #ff4343; }
+
+.stars {
+  width: 12px;
+  height: 12px; }
+
+.btn-orange {
+  background-color: #ff5e23;
+  width: fit-content; }
+
+.banner {
+  background: url(../../images/stripes-pattern.svg);
+  min-height: 118px;
+  background-size: contain;
+  border-radius: 8px;
+  border: 1px solid #eef2f5;
+  position: relative;
+  margin: 32px auto; }
+  .banner .arrow {
+    position: absolute;
+    right: 32px;
+    top: 32px; }
+
+.registration-box {
+  width: 100%;
+  background-color: #f9f9f9;
+  box-shadow: 8px 8px 16px #333e4814;
+  padding: 16px;
+  border-radius: 4px;
+  height: fit-content; }
+
+.bookmakers-sidebar {
+  background-color: #f3f3f4; }
+  .bookmakers-sidebar .ranking-number {
+    background-color: #f3f3f4;
+    border: 2px solid #f9f9f9;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    transform: translateX(-16px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    padding: 1px 0 0 0;
+    font-size: 14px; }
+
+.search-wrapper {
+  padding-left: 1rem;
+  background-color: #f3f3f4;
+  border: 0;
+  border-radius: 0.5rem; }
+
+.search-btn {
+  background-color: #ff5e23; }
+
+.categories {
+  background-color: #f9f9f9;
+  box-shadow: 8px 8px 16px #333e4814;
+  padding: 16px; }
+  .categories .categories-title:hover {
+    color: #ff4343 !important; }
+
+.author-name {
+  text-decoration: underline;
+  color: #ff5e23; }
+
+.featured-img img {
+  max-width: 100%;
+  height: 230px;
+  object-fit: cover;
+  vertical-align: middle; }
+
+.content-section img {
+  max-width: 100%; }
+
+.avatar-img img {
+  border-radius: 50%; }
+
+.featured-info {
+  background-color: #f3f3f4; }
+
+.lines-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
+
+.lines-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical; }
+
+.nav-links a {
+  color: #5b5b5b;
+  background-color: #f3f3f4;
+  padding: 8px 16px;
+  border-radius: 50%; }
+
+.nav-links .current {
+  background-color: #ff5e23;
+  padding: 8px 16px;
+  border-radius: 50%; }
+
+.image-404 {
+  max-width: 100%;
+  height: auto; }
+
+.search-overlay {
+  padding-left: 1rem;
+  background-color: #f3f3f4;
+  border: 0;
+  border-radius: 0.5rem;
+  display: none; }
+
+.search-overlay_active {
+  padding-left: 1rem;
+  background-color: #f3f3f4;
+  border: 0;
+  border-radius: 0.5rem;
+  display: block; }
+
+.loader {
+  width: 16px;
+  height: 16px;
+  border: 5px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite; }
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+.btn-more {
+  background-color: #f3f3f4; }
+
+.search-title {
+  color: #161616; }
+  .search-title:hover {
+    color: #ff5e23; }
+
+.search-link {
+  color: #161616; }
+  .search-link:hover {
+    color: #161616; }
+
+.results-wrapper {
+  background-color: #ff5e23;
+  padding: 0 2px; }
+  .results-wrapper .search-form {
+    background-color: #ff5e23;
+    padding: 2px 2px; }
+
+.all-results {
+  color: #ff5e23; }
+
+.unfeatured-post a div img {
+  height: 90px;
+  width: 90px; }
